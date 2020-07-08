@@ -108,9 +108,9 @@ function draw() {
     let resultP = createP('');
     resultP.style('font-size', '32pt');
     if (result == 'tie') {
-      resultP.html('Tie!');
+      resultP.html('Seri!');
     } else {
-      resultP.html(`${result} wins!`);
+      resultP.html(`${result} menang!`);
     }
   }
 }
